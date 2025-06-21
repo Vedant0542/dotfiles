@@ -1,0 +1,48 @@
+{
+  // Your existing settings
+  "git.terminalAuthentication": false,
+  "workbench.colorTheme": "Spinel",
+  "workbench.settings.applyToAllProfiles": [],
+
+  // ---- START: Recommended Ruby/Rails Settings ----
+
+  // General Editor Settings (Good defaults for most coding)
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "editor.rulers": [
+      120
+  ],
+
+  // Ruby Specific Settings
+  "[ruby]": {
+      "editor.defaultFormatter": "castwide.solargraph",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true
+  },
+
+  // ERB (Embedded Ruby - .html.erb files) Specific Settings
+  "[erb]": {
+      "editor.defaultFormatter": "Shopify.ruby-lsp",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true
+  },
+
+  // Solargraph Configuration
+  "solargraph.commandPath": "/Users/vg/.rbenv/shims/solargraph",
+  "solargraph.formatting": true,
+  "solargraph.diagnostics": true,
+  "solargraph.autoformat": false,
+  "solargraph.useBundler": true,
+
+  // Integrated Terminal settings (Optional)
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.defaultProfile.osx": "zsh"
+
+  // ---- END: Recommended Ruby/Rails Settings ----
+}
